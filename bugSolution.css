@@ -1,0 +1,12 @@
+To resolve the issue, consider using a different approach to achieve the desired layout. One possible solution is to avoid using `calc()` with `vh` and percentages in the same expression. Instead, you could rely on viewport units only or use a JavaScript solution to dynamically adjust the height.
+
+Here's an example using `vh` units:
+
+```css
+.container {
+  width: 50%;
+  height: 80vh; /* Adjust the percentage as needed */
+}
+```
+
+This solution sets the container's height to 80% of the viewport height, offering a simpler and more reliable approach in most scenarios.
