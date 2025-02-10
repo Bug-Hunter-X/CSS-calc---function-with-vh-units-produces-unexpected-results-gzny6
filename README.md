@@ -1,0 +1,1 @@
+This repository demonstrates a common yet subtle bug encountered when using the `calc()` function in CSS, specifically when combining percentages, `vh` units, and fixed pixel values.  The issue revolves around how browsers interpret and calculate the final height of an element.  The `bug.css` file contains the erroneous code. `bugSolution.css` provides a workaround.
