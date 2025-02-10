@@ -1,0 +1,10 @@
+The following CSS code snippet demonstrates an issue with unexpected behavior when using the `calc()` function with percentages and `vh` units:
+
+```css
+.container {
+  width: 50%;
+  height: calc(100vh - 100px);
+}
+```
+
+The intention is to create a container that takes up 50% of the viewport width and a height equal to the viewport height minus 100 pixels. However, in some browsers or situations, the calculation might not be performed correctly, resulting in unexpected height values.
